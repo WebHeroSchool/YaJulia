@@ -1,3 +1,34 @@
 p {
 font-family: Roboto;
 }
+body {
+  margin: 0;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+.logo, .menu {
+  display: inline-block;
+}
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+// font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  width: 190px;
+  height: 35px;
+  background: url('img/logo.svg');
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}

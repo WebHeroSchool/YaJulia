@@ -15,13 +15,13 @@ body {
   padding: 25px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 206px;
+  margin-bottom: 150px;
 }
 .logo {
   position: relative;
   padding: 15px 0;
   padding-left: 44px;
-  font: bold 24px/32px pt_serif, arial, helvetica, sans-serif;
+  font: bold 24px/32px pt_serifbold, arial, helvetica, sans-serif;
 }
 .logo__circle {
   position: absolute;
@@ -47,14 +47,14 @@ body {
 }
 .menu__item {
   position: relative;
-  margin-right: 31px;
+  margin-right: 28px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
 }
 .menu__item:last-child {
-  margin-right: 6px;
+  margin-right: 8px;
 }
 .menu__item:after {
   position: absolute;
@@ -78,26 +78,26 @@ body {
   opacity: 0;
 }
 .main {
-  padding: 0 60% 170px 0;
-  background: bottom 30px right no-repeat url(img/Frame.svg);
+  padding: 50px 60% 190px 0;
+  background: bottom 50px right no-repeat url(img/Frame.svg);
 }
 .main__title {
-  margin: 0 0 38px 0;
-  font: bold 66px/87px pt_serif, arial, helvetica, sans-serif;
+  margin: 0px 0 38px 0;
+  font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 .main__subtitle {
   margin:0 180px 41px 0;
   font: 22px/26px Roboto, arial, helvetica, sans-serif;
 }
 .main__title-text_highlight {
-  background: #ECF3FF;
+  background: linear-gradient(to bottom, #ECF3FF 85%, #FFF 15%);
 }
 .main__button {
   display: inline-block;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
-  padding: 18px 25px;
+  padding: 18px 28px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;

@@ -15,7 +15,7 @@ body {
   padding: 25px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 150px;
+  margin-bottom: 130px;
 }
 .logo {
   position: relative;
@@ -78,7 +78,7 @@ body {
   opacity: 0;
 }
 .main {
-  padding: 50px 60% 190px 0;
+  padding: 70px 60% 190px 0;
   background: bottom 50px right no-repeat url(img/Frame.svg);
 }
 .main__title {

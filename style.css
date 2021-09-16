@@ -150,6 +150,7 @@ body {
 
 @media (max-width: 1597px) {
 
+  
   .wrapper {
     width: 85%;
   }
@@ -220,6 +221,7 @@ body {
 
 @media (max-width: 1279px) {
 
+  
   .main {
     padding: 70px 40% 100px 0;
     background-size: 50%;
@@ -302,7 +304,7 @@ body {
 @media (max-width: 980px) {
 
   .main {
-     background-size: 50%;
+    background-size: 50%;
   }
 
   .main__title {
@@ -312,6 +314,7 @@ body {
 
 @media (max-width: 768px) {
  
+  
   .header {
     padding-top: 24px;
     margin-bottom: 2%;
@@ -440,10 +443,11 @@ body {
     visibility: visible;
     left: 0;
   } 
-}
+ }
 
 @media (max-width: 500px) {
 
+  
   .main__title {
     font: bold 30px/50px pt_serifbold, arial, helvetica, sans-serif;
     margin: auto;
@@ -502,7 +506,6 @@ body {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     padding: 4% 8% 4% 4%;
   } 
-
   .menu__btn {
     display: flex;
     align-items: center;

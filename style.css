@@ -442,8 +442,9 @@ body {
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
-  } 
- }
+  }  
+  
+}
 
 @media (max-width: 500px) {
 

@@ -105,7 +105,7 @@ body {
 }
 
 .main__title {
-  margin: 0px 0px 37px 0px;
+  margin: 0 0 37px 0;
   font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 
@@ -115,17 +115,17 @@ body {
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(180deg, #FFF 15%, #ecf3ff 15%);
+  background: linear-gradient(180deg, #fff 15%, #ecf3ff 15%);
 }
 @keyframes grow {
   0% {
-    transform: scale3d(1,1,1);
+    transform: scale3d(1, 1, 1);
   }
   50% {
-    transform: scale3d(1.05,1.05,1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
   }
   100% {
-    transform: scale3d(1,1,1);
+    transform: scale3d(1, 1, 1);
   }
 }
 

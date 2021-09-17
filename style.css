@@ -250,8 +250,8 @@ body {
   }
 
   .header {
-    padding-top: 30px;
-    margin-bottom: 89px;
+    padding-top: 27px;
+    margin-bottom: 78px;
   }
 
   .logo {
@@ -281,7 +281,7 @@ body {
   }
 
   .main {
-    padding: 11px 44% 59px 0;
+    padding: 0 44% 59px 0;
     background: top right no-repeat url(img/Frame1024.svg);
   }
 
@@ -291,7 +291,7 @@ body {
   }
 
   .main__subtitle {
-    margin: 0 138px 46px 0;
+    margin: 0 138px 42px 0;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -309,6 +309,7 @@ body {
 
   .main__title {
     font: bold 40px/55px pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0 50px 0 0;
   }
 }
 
@@ -443,7 +444,7 @@ body {
     visibility: visible;
     left: 0;
   }  
-  
+
 }
 
 @media (max-width: 500px) {
@@ -520,18 +521,20 @@ body {
   }
 
   .menu__mob {
+    ;
     display: block;
-    padding: 17px 21px 10px 0;
+    padding: 0 20px 0 0;
     color: #000;
     font: 500 30px/34px Roboto, arial, helvetica, sans-serif;
     text-decoration: none;
   }
 
   .menu__mob:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 26px;
   }
 
   .menu__box {
+    
     display: block;
     position: fixed;
     visibility: hidden;
@@ -539,7 +542,7 @@ body {
     left: 0;
     width: 100%;
     min-height: 100%;
-    padding: 167px 34px 0 0;
+    padding: 185px 0 0 0;
     z-index: 1;
     list-style: none;
     text-align: center;

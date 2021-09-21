@@ -148,6 +148,10 @@ body {
   opacity: 0.5;
 }
 
+.points {
+  padding: 75px 0 0 750px ;
+}
+
 @media (max-width: 1597px) {
 
   
@@ -198,8 +202,8 @@ body {
   }
 
   .main {
-    padding: 0 39% 160px 0;
-    background: bottom 100px right no-repeat url(img/Frame1366.svg);
+    padding: 0px 39% 120px 0;
+    background: bottom 64px right no-repeat url(img/Frame1366.svg);
   }
 
   .main__title {
@@ -216,6 +220,10 @@ body {
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     padding: 14px 27px 15px 17px;
+  }
+
+  .points {
+    padding: 20px 0 0 448px;
   }
 }
 
@@ -255,12 +263,12 @@ body {
   }
 
   .logo {
-    padding: 30 20px;
+    padding: 13px 20px;
     padding-left: 44px;
   }
 
   .menu {
-    padding-top: 3px;
+    padding-top: 4px;
   }
 
   .menu__item {
@@ -298,6 +306,10 @@ body {
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     padding: 14px 23px 14px 16px;
+  }
+
+  .points {
+    padding: 80px 0 0 450px;
   }
 }
 
@@ -443,8 +455,11 @@ body {
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
-  }  
+  } 
 
+  .points {
+    display: none;
+  } 
 }
 
 @media (max-width: 500px) {
